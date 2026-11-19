@@ -1,0 +1,86 @@
+{
+  "base_url": "http://localhost:8000",
+  "runs": 5,
+  "results": [
+    {
+      "endpoint": "Dashboard summary",
+      "path": "/api/analytics/summary",
+      "first_ms": 1321,
+      "median_ms": 24,
+      "max_ms": 28,
+      "bytes": 1370
+    },
+    {
+      "endpoint": "Monthly trend (top 6)",
+      "path": "/api/analytics/trend",
+      "first_ms": 67,
+      "median_ms": 81,
+      "max_ms": 82,
+      "bytes": 2635
+    },
+    {
+      "endpoint": "Breakdown by residence",
+      "path": "/api/analytics/breakdown?by=residence",
+      "first_ms": 19,
+      "median_ms": 17,
+      "max_ms": 18,
+      "bytes": 802
+    },
+    {
+      "endpoint": "Seasonality (malaria)",
+      "path": "/api/analytics/seasonality?code=B54",
+      "first_ms": 16,
+      "median_ms": 15,
+      "max_ms": 16,
+      "bytes": 238
+    },
+    {
+      "endpoint": "Association rules (Apriori)",
+      "path": "/api/mining/rules",
+      "first_ms": 2222,
+      "median_ms": 2112,
+      "max_ms": 2258,
+      "bytes": 22068
+    },
+    {
+      "endpoint": "Clustering of halls (k-means)",
+      "path": "/api/mining/clusters",
+      "first_ms": 157,
+      "median_ms": 125,
+      "max_ms": 131,
+      "bytes": 6380
+    },
+    {
+      "endpoint": "Forecast with back-test (malaria)",
+      "path": "/api/mining/forecast?code=B54&horizon=6",
+      "first_ms": 194,
+      "median_ms": 191,
+      "max_ms": 201,
+      "bytes": 1687
+    },
+    {
+      "endpoint": "Outbreak scan, campus, 26 weeks",
+      "path": "/api/mining/alerts?method=historical&level=campus&weeks=26",
+      "first_ms": 125,
+      "median_ms": 152,
+      "max_ms": 182,
+      "bytes": 743
+    },
+    {
+      "endpoint": "Outbreak scan, halls, 26 weeks",
+      "path": "/api/mining/alerts?method=historical&level=residence&weeks=26",
+      "first_ms": 1014,
+      "median_ms": 1247,
+      "max_ms": 1412,
+      "bytes": 11864
+    },
+    {
+      "endpoint": "Encounter list (page of 25)",
+      "path": "/api/data/encounters?page=1&size=25",
+      "first_ms": 29,
+      "median_ms": 22,
+      "max_ms": 25,
+      "bytes": 4996
+    }
+  ]
+}

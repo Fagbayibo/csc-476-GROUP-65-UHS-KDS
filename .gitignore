@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+# Local settings and databases
+backend/.env
+*.db
+*.db-shm
+*.db-wal
+# Node
+frontend/node_modules/
+frontend/dist/
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

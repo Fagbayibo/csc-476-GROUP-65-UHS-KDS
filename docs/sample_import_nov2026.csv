@@ -1,0 +1,252 @@
+card_no,sex,birth_year,category,faculty,hall,visit_date,visit_type,diagnosis_codes
+JC-001418,M,2000,Student,Social Sciences,Hall J,2026-11-01,New,K29.7
+JC-010470,F,1997,Staff,Pharmacy,Off-campus,2026-11-02,New,B54
+JC-003641,M,2001,Student,Agriculture,Hall E,2026-11-03,New,K02.9
+JC-009583,F,1968,Staff,Social Sciences,Off-campus,2026-11-04,New,T14.9
+JC-009020,M,1984,Staff,Pharmacy,Staff Quarters,2026-11-05,New,I10
+JC-002909,Female,2005,Student,Social Sciences,Hall J,2026-11-06,New,K29.7
+JC-007858,M,2003,Student,Economics and Management Sciences,Off-campus,2026-11-07,New,J06.9
+JC-002937,F,1999,Student,Science,Hall E,2026-11-08,New,B54
+JC-005723,M,2002,Student,Pharmacy,Hall I,2026-11-09,New,T14.9
+JC-001959,F,2004,Student,Pharmacy,Hall F,2026-11-10,New,B54
+JC-007075,F,1999,Student,Economics and Management Sciences,Off-campus,2026-11-11,New,N94.6
+JC-008775,M,1998,Student,Science,Hall D,2026-11-12,New,J06.9
+JC-001345,F,2002,Student,Veterinary Medicine,Hall H,2026-11-13,New,J06.9
+JC-001788,M,2001,Student,Basic Medical Sciences,Hall I,2026-11-14,New,B36.9
+JC-006049,F,1996,Student,Veterinary Medicine,Hall J,2026-11-01,New,A09
+JC-007206,F,1999,Student,Agriculture,Hall I,2026-11-02,New,B54
+JC-010225,F,1986,Staff,Arts,Off-campus,2026-11-03,New,J06.9
+JC-005143,M,2001,Student,Basic Medical Sciences,Hall F,2026-11-04,New,K29.7
+JC-002524,Female,2003,Student,Basic Medical Sciences,Off-campus,2026-11-05,Follow-up,B54
+JC-002509,M,1997,Student,Agriculture,Hall D,2026-11-06,New,B54;A01.0
+JC-008535,M,2003,Student,Veterinary Medicine,Hall B,2026-11-07,New,B54
+JC-000741,F,2001,Student,Science,Off-campus,2026-11-08,New,J06.9
+JC-006783,F,2004,Student,Social Sciences,Hall G,2026-11-09,New,B54
+JC-004664,M,1999,Student,Arts,Hall J,2026-11-10,New,J06.9
+JC-000824,M,2005,Student,Pharmacy,Hall E,2026-11-11,New,N39.0
+JC-003228,M,1999,Student,Education,Hall B,2026-11-12,Follow-up,T14.9
+JC-009415,F,1988,Staff,Administration,Staff Quarters,2026-11-13,New,B36.9
+JC-005903,Female,2005,Student,Agriculture,Hall J,2026-11-14,New,J45.9
+JC-003014,M,2002,Student,Law,Hall D,2026-11-01,New,A09
+JC-006088,M,2005,Student,Education,Hall F,2026-11-02,New,J06.9
+JC-003926,F,2003,Student,Law,Off-campus,2026-11-03,New,N94.6
+JC-008206,F,1999,Student,Technology,Off-campus,2026-11-04,New,J06.9
+JC-005202,F,2001,Student,Agriculture,Hall A,2026-11-05,New,K29.7
+JC-009207,M,1988,Staff,Administration,Staff Quarters,2026-11-06,New,K29.7
+JC-004756,F,2006,Student,Clinical Sciences,Hall D,2026-11-07,Follow-up,J06.9
+JC-007403,F,2002,Student,Economics and Management Sciences,Hall E,2026-11-08,New,N39.0
+JC-002054,F,2004,Student,Arts,Off-campus,2026-11-09,New,B54
+JC-010435,M,1966,Staff,Veterinary Medicine,Staff Quarters,2026-11-10,New,B54
+JC-006696,M,2005,Student,Economics and Management Sciences,Hall E,2026-11-11,New,K02.9
+JC-007253,F,2000,Student,Technology,Off-campus,2026-11-12,New,N94.6
+JC-000710,M,2000,Student,Law,Off-campus,2026-11-13,Follow-up,K29.7
+JC-009055,M,,Staff,Social Sciences,Staff Quarters,2026-11-14,New,I10
+JC-002248,F,2003,Student,Pharmacy,Hall D,2026-11-01,New,J06.9;J45.9
+JC-007431,F,2002,Student,Economics and Management Sciences,Off-campus,2026-11-02,Follow-up,A09
+JC-001754,M,2000,Student,Pharmacy,Hall J,2026-11-03,New,K29.7
+JC-007994,F,2000,Student,Agriculture,Hall I,2026-11-04,New,K29.7
+JC-007418,F,2000,Student,Law,Off-campus,2026-11-05,New,B36.9
+JC-007647,M,2005,Student,Basic Medical Sciences,Off-campus,2026-11-06,New,J06.9
+JC-007738,F,2002,Student,Clinical Sciences,Off-campus,2026-11-07,New,J06.9
+JC-003257,F,2003,Student,Agriculture,Hall J,2026-11-08,New,K02.9
+JC-009539,M,1995,Staff,Economics and Management Sciences,Staff Quarters,2026-11-09,New,B54
+JC-004357,F,1999,Student,Law,Off-campus,2026-11-10,New,K29.7
+JC-001065,F,2004,Student,Agriculture,Hall E,2026-11-11,New,B54
+JC-008641,F,2005,Student,Pharmacy,Hall G,2026-11-12,New,B54;A01.0
+JC-005356,F,2000,Student,Education,Off-campus,2026-11-13,New,H10.9
+JC-002524,F,2003,Student,Basic Medical Sciences,Off-campus,2026-11-14,New,J06.9
+JC-000684,M,2003,Student,Science,Hall C,2026-11-01,New,B54
+JC-003807,Male,1999,Student,Arts,Hall J,2026-11-02,New,J06.9
+JC-007115,M,2000,Student,Veterinary Medicine,Hall I,2026-11-03,New,B54;A01.0
+JC-010254,Female,1974,Staff,Law,Staff Quarters,2026-11-04,New,B54
+JC-002571,M,1997,Student,Arts,Hall J,2026-11-05,New,K29.7
+JC-000891,Male,2003,Student,Technology,Off-campus,2026-11-06,New,B36.9
+JC-001134,M,1998,Student,Social Sciences,Off-campus,2026-11-07,New,J30.4
+JC-007970,M,1997,Student,Arts,Hall G,2026-11-08,New,B54;A01.0
+JC-004440,Male,2001,Student,Clinical Sciences,Hall G,2026-11-09,New,B54;A01.0
+JC-003203,M,2001,Student,Technology,Hall H,2026-11-10,New,B54;A01.0
+JC-009082,M,1987,Staff,Clinical Sciences,Off-campus,2026-11-11,New,J06.9
+JC-006038,M,1998,Student,Agriculture,Hall A,2026-11-12,New,B54
+JC-003604,F,1998,Student,Arts,Off-campus,2026-11-13,Follow-up,N94.6
+JC-006671,M,1996,Student,Agriculture,Hall I,2026-11-14,Follow-up,A01.0
+JC-001419,M,2002,Student,Law,Hall D,2026-11-01,Follow-up,T14.9
+JC-004563,M,2002,Student,Veterinary Medicine,Hall F,2026-11-02,New,J06.9
+JC-001936,Male,2002,Student,Pharmacy,Off-campus,2026-11-03,New,B54
+JC-001713,M,1998,Student,Veterinary Medicine,Hall G,2026-11-04,New,J06.9
+JC-010869,F,2018,Dependant,,Off-campus,2026-11-05,New,B54
+JC-000302,M,2002,Student,Science,Hall J,2026-11-06,New,B54
+JC-006515,Male,1999,Student,Law,Hall F,2026-11-07,New,A09
+JC-003439,M,1996,Student,Pharmacy,Off-campus,2026-11-08,Follow-up,N39.0
+JC-000122,M,1996,Student,Pharmacy,Hall C,2026-11-09,New,B54
+JC-004959,F,2000,Student,Agriculture,Hall F,2026-11-10,New,N94.6
+JC-009314,F,1972,Staff,Social Sciences,Staff Quarters,2026-11-11,New,B54
+JC-001825,F,2002,Student,Economics and Management Sciences,Hall G,2026-11-12,New,B54;A01.0
+JC-005182,M,2003,Student,Veterinary Medicine,Off-campus,2026-11-13,New,B54;A01.0
+JC-005181,Male,2003,Student,Basic Medical Sciences,Hall C,2026-11-14,Follow-up,B54
+JC-002289,F,1996,Student,Arts,Off-campus,2026-11-01,Follow-up,B54
+JC-005019,M,2002,Student,Pharmacy,Hall B,2026-11-02,New,B36.9
+JC-006999,M,1999,Student,Technology,Hall I,2026-11-03,Follow-up,K29.7
+JC-008243,M,2002,Student,Veterinary Medicine,Off-campus,2026-11-04,New,B54
+JC-007408,F,2000,Student,Science,Hall J,2026-11-05,New,J45.9
+JC-001566,F,2001,Student,Basic Medical Sciences,Hall A,2026-11-06,New,B54
+JC-001609,Male,2003,Student,Technology,Off-campus,2026-11-07,New,A01.0
+JC-003962,F,2003,Student,Veterinary Medicine,Hall F,2026-11-08,New,J06.9
+JC-009042,M,1984,Staff,Economics and Management Sciences,Staff Quarters,2026-11-09,New,J30.4
+JC-003511,F,2000,Student,Economics and Management Sciences,Hall B,2026-11-10,New,N94.6
+JC-010726,M,2012,Dependant,,Off-campus,2026-11-11,Follow-up,J06.9
+JC-008632,F,2005,Student,Science,Hall A,2026-11-12,New,K02.9
+JC-010230,F,1963,Staff,Science,Off-campus,2026-11-13,Follow-up,I10
+JC-006169,F,2004,Student,Technology,Hall A,2026-11-14,New,J06.9;J45.9
+JC-010120,M,1996,Staff,Pharmacy,Off-campus,2026-11-01,Follow-up,B54
+JC-010346,Male,1962,Staff,Administration,Staff Quarters,2026-11-02,New,E11.9
+JC-010203,M,1963,Staff,Veterinary Medicine,Staff Quarters,2026-11-03,New,J30.4
+JC-000148,M,2001,Student,Arts,Hall H,2026-11-04,New,B54;A01.0
+JC-005499,Female,2000,Student,Law,Off-campus,2026-11-05,New,A01.0
+JC-001826,M,2002,Student,Economics and Management Sciences,Hall G,2026-11-06,New,K29.7
+JC-001900,Female,2005,Student,Pharmacy,Hall C,2026-11-07,New,N39.0
+JC-004987,M,2001,Student,Education,Off-campus,2026-11-08,New,B54
+JC-003029,M,1999,Student,Veterinary Medicine,Off-campus,2026-11-09,Follow-up,T14.9
+JC-007555,M,1998,Student,Education,Off-campus,2026-11-10,New,K29.7
+JC-001249,F,2004,Student,Veterinary Medicine,Hall B,2026-11-11,Follow-up,K02.9
+JC-001309,Male,1998,Student,Science,Hall F,2026-11-12,New,B54
+JC-009279,F,1971,Staff,Science,Staff Quarters,2026-11-13,Follow-up,E11.9;I10
+JC-006609,Male,2002,Student,Economics and Management Sciences,Hall C,2026-11-14,New,A01.0
+JC-009117,F,1995,Staff,Basic Medical Sciences,Off-campus,2026-11-01,New,B54;A01.0
+JC-006350,M,1998,Student,Arts,Off-campus,2026-11-02,Follow-up,A09
+JC-002023,M,2002,Student,Pharmacy,Off-campus,2026-11-03,New,J06.9
+JC-005503,M,2006,Student,Science,Off-campus,2026-11-04,Follow-up,K29.7
+JC-009569,M,1993,Staff,Basic Medical Sciences,Staff Quarters,2026-11-05,New,B54
+JC-007788,F,2001,Student,Arts,Hall G,2026-11-06,New,A09
+JC-001207,F,2004,Student,Veterinary Medicine,Hall B,2026-11-07,New,J06.9
+JC-000353,F,2001,Student,Education,Hall G,2026-11-08,New,J06.9
+JC-002963,F,2002,Student,Education,Hall D,2026-11-09,New,B54
+JC-001091,M,1999,Student,Agriculture,Hall A,2026-11-10,New,B54
+JC-005927,F,2003,Student,Technology,Hall J,2026-11-11,New,N94.6
+JC-007837,F,2003,Student,Arts,Hall B,2026-11-12,New,F41.9
+JC-002594,M,2006,Student,Law,Hall I,2026-11-13,New,J06.9
+JC-010216,Male,1993,Staff,Education,Off-campus,2026-11-14,New,J45.9
+JC-006660,M,2000,Student,Clinical Sciences,Hall J,2026-11-01,Follow-up,J06.9
+JC-010350,Male,1972,Staff,Economics and Management Sciences,Off-campus,2026-11-02,New,T14.9
+JC-003375,Male,2004,Student,Science,Hall B,2026-11-03,New,B54;A01.0
+JC-004866,F,2000,Student,Technology,Off-campus,2026-11-04,New,J06.9
+JC-010771,F,2010,Dependant,,Off-campus,2026-11-05,New,H10.9
+JC-000596,F,2003,Student,Science,Hall J,2026-11-06,New,N39.0
+JC-005770,F,2005,Student,Pharmacy,Off-campus,2026-11-07,Follow-up,N39.0
+JC-000838,M,2006,Student,Economics and Management Sciences,Off-campus,2026-11-08,New,B54;A01.0
+JC-009935,F,1988,Staff,Basic Medical Sciences,Staff Quarters,2026-11-09,New,B36.9
+JC-008030,M,2003,Student,Law,Off-campus,2026-11-10,New,J06.9
+JC-010045,Female,1961,Staff,Administration,Off-campus,2026-11-11,New,I10
+JC-002148,F,2001,Student,Arts,Hall F,2026-11-12,New,B54
+JC-010297,F,1968,Staff,Education,Staff Quarters,2026-11-13,New,I10
+JC-005829,F,1998,Student,Economics and Management Sciences,Hall H,2026-11-14,New,K29.7
+JC-001988,F,2002,Student,Pharmacy,Hall J,2026-11-01,New,N39.0
+JC-000578,F,2006,Student,Social Sciences,Hall G,2026-11-02,New,B54;A01.0
+JC-006956,M,2006,Student,Veterinary Medicine,Hall I,2026-11-03,New,K29.7
+JC-003280,Male,1998,Student,Law,Hall J,2026-11-04,New,B54;A01.0
+JC-009792,F,1980,Staff,Veterinary Medicine,Off-campus,2026-11-05,New,I10
+JC-009708,F,1979,Staff,Economics and Management Sciences,Staff Quarters,2026-11-06,New,B54
+JC-005404,F,2003,Student,Social Sciences,Off-campus,2026-11-07,New,B54
+JC-000484,M,1995,Student,Social Sciences,Off-campus,2026-11-08,New,B54
+JC-005449,M,2002,Student,Agriculture,Hall B,2026-11-09,New,B54;A01.0
+JC-001628,Male,2000,Student,Social Sciences,Hall I,2026-11-10,New,B54
+JC-004626,F,2001,Student,Agriculture,Hall C,2026-11-11,New,B54;A01.0
+JC-004266,M,1998,Student,Agriculture,Hall B,2026-11-12,New,B36.9
+JC-009203,M,1959,Staff,Arts,Off-campus,2026-11-13,New,T14.9
+JC-001349,M,2006,Student,Law,Hall C,2026-11-14,New,B36.9
+JC-001539,F,2005,Student,Law,Hall E,2026-11-01,New,J30.4
+JC-001701,M,2002,Student,Science,Hall I,2026-11-02,New,H10.9
+JC-002624,M,2003,Student,Social Sciences,Hall H,2026-11-03,New,T14.9
+JC-007943,F,2002,Student,Clinical Sciences,Hall H,2026-11-04,New,A09
+JC-009256,M,1959,Staff,Agriculture,Staff Quarters,2026-11-05,Follow-up,J45.9
+JC-005391,M,2000,Student,Veterinary Medicine,Off-campus,2026-11-06,New,B54;A01.0
+JC-001843,F,2001,Student,Pharmacy,Off-campus,2026-11-07,New,K29.7
+JC-003791,M,1998,Student,Law,Hall F,2026-11-08,New,J06.9
+JC-000894,F,2003,Student,Law,Hall G,2026-11-09,New,J45.9
+JC-010662,F,2007,Dependant,,Staff Quarters,2026-11-10,New,A01.0
+JC-001211,F,2001,Student,Clinical Sciences,Hall J,2026-11-11,Follow-up,A01.0
+JC-009466,M,1960,Staff,Pharmacy,Off-campus,2026-11-12,Follow-up,I10
+JC-004827,M,2004,Student,Agriculture,Hall F,2026-11-13,New,B54
+JC-003697,M,2002,Student,Pharmacy,Hall F,2026-11-14,Follow-up,J06.9;J45.9
+JC-009253,M,1992,Staff,Administration,Off-campus,2026-11-01,Follow-up,J06.9
+JC-004601,F,1998,Student,Pharmacy,Hall E,2026-11-02,New,H10.9
+JC-009326,M,1979,Staff,Administration,Staff Quarters,2026-11-03,New,B54
+JC-000702,M,2002,Student,Education,Off-campus,2026-11-04,New,A09
+JC-002879,M,1998,Student,Education,Hall D,2026-11-05,New,B36.9
+JC-010164,F,1993,Staff,Law,Staff Quarters,2026-11-06,Follow-up,B54
+JC-008455,M,1993,Student,Social Sciences,Hall B,2026-11-07,New,J06.9
+JC-008369,Male,2003,Student,Social Sciences,Hall J,2026-11-08,New,A09
+JC-003062,F,2000,Student,Education,Hall E,2026-11-09,New,B36.9
+JC-006483,F,2000,Student,Education,Off-campus,2026-11-10,New,J06.9
+JC-008495,M,2006,Student,Economics and Management Sciences,Hall J,2026-11-11,New,J06.9
+JC-000540,F,2003,Student,Pharmacy,Off-campus,2026-11-12,New,B54;A01.0
+JC-008050,F,1999,Student,Pharmacy,Off-campus,2026-11-13,New,J06.9
+JC-003508,Male,1996,Student,Pharmacy,Hall A,2026-11-14,New,B54
+JC-009314,Female,1972,Staff,Social Sciences,Staff Quarters,2026-11-01,New,E11.9
+JC-000836,F,2004,Student,Law,Hall F,2026-11-02,New,B54
+JC-004093,M,2005,Student,Basic Medical Sciences,Hall C,2026-11-03,Follow-up,B54
+JC-010486,F,1966,Staff,Social Sciences,Staff Quarters,2026-11-04,New,I10
+JC-009059,F,1969,Staff,Education,Staff Quarters,2026-11-05,New,J06.9
+JC-006701,F,2001,Student,Veterinary Medicine,Hall D,2026-11-06,New,N94.6
+JC-000053,M,2006,Student,Social Sciences,Hall F,2026-11-07,New,J06.9
+JC-003621,M,1998,Student,Education,Hall J,2026-11-08,New,J45.9
+JC-003967,M,2005,Student,Veterinary Medicine,Hall E,2026-11-09,New,J06.9
+JC-010689,F,2009,Dependant,,Off-campus,2026-11-10,Follow-up,J06.9
+JC-004333,F,2001,Student,Basic Medical Sciences,Hall A,2026-11-11,New,N94.6
+JC-007566,F,2004,Student,Social Sciences,Hall I,2026-11-12,Follow-up,J06.9
+JC-006852,F,2000,Student,Law,Off-campus,2026-11-13,New,B54
+JC-000041,F,2001,Student,Science,Hall B,2026-11-14,New,B54;A01.0
+JC-005639,F,1995,Student,Agriculture,Off-campus,2026-11-01,New,B54
+JC-006693,F,1999,Student,Economics and Management Sciences,Hall D,2026-11-02,New,B54
+JC-010673,F,2013,Dependant,,Staff Quarters,2026-11-03,New,B54
+JC-010382,M,1980,Staff,Economics and Management Sciences,Staff Quarters,2026-11-04,New,B36.9
+JC-009117,F,1995,Staff,Basic Medical Sciences,Off-campus,2026-11-05,New,J06.9
+JC-000455,F,1999,Student,Agriculture,Hall C,2026-11-06,New,H10.9
+JC-003251,M,1996,Student,Education,Hall B,2026-11-07,New,J06.9
+JC-003026,Female,2004,Student,Arts,Off-campus,2026-11-08,Follow-up,B54;A01.0
+JC-000035,F,2003,Student,Agriculture,Hall C,2026-11-09,New,B54;A01.0
+JC-001720,F,2000,Student,Agriculture,Off-campus,2026-11-10,Follow-up,B54;A01.0
+JC-003719,F,1998,Student,Social Sciences,Hall E,2026-11-11,New,B54
+JC-008719,Male,2003,Student,Arts,Off-campus,2026-11-12,New,J45.9
+JC-010071,F,1983,Staff,Science,Staff Quarters,2026-11-13,New,B54
+JC-010684,M,2010,Dependant,,Off-campus,2026-11-14,New,J06.9
+JC-000711,M,1999,Student,Veterinary Medicine,Hall C,2026-11-01,Follow-up,H10.9
+JC-005192,F,2005,Student,Education,Hall E,2026-11-02,Follow-up,J06.9
+JC-010049,M,1971,Staff,Administration,Staff Quarters,2026-11-03,New,B54
+JC-004428,M,2001,Student,Economics and Management Sciences,Hall J,2026-11-04,New,B54
+JC-004622,F,2006,Student,Arts,Hall C,2026-11-05,New,J06.9
+JC-008859,M,1999,Student,Clinical Sciences,Off-campus,2026-11-06,Follow-up,B54
+JC-004677,F,1995,Student,Basic Medical Sciences,Off-campus,2026-11-07,New,A09
+JC-000663,M,2004,Student,Technology,Hall A,2026-11-08,New,J06.9
+JC-006156,F,1999,Student,Social Sciences,Hall I,2026-11-09,New,B54
+JC-009313,M,1972,Staff,Clinical Sciences,Off-campus,2026-11-10,New,B54;A01.0
+JC-010279,Female,1970,Staff,Technology,Off-campus,2026-11-11,New,E11.9;I10
+JC-006748,M,1997,Student,Arts,Hall F,2026-11-12,New,K02.9
+JC-002182,M,1999,Student,Economics and Management Sciences,Off-campus,2026-11-13,Follow-up,N39.0
+JC-001422,F,2002,Student,Agriculture,Hall C,2026-11-14,New,B54
+JC-009501,F,1979,Staff,Education,Off-campus,2026-11-01,New,I10
+JC-005464,F,2001,Student,Pharmacy,Off-campus,2026-11-02,New,A09
+JC-010901,F,2012,Dependant,,Off-campus,2026-11-03,New,B54
+JC-008373,M,2002,Student,Clinical Sciences,Hall I,2026-11-04,New,N39.0
+JC-001830,Female,2002,Student,Basic Medical Sciences,Hall C,2026-11-05,New,N94.6
+JC-009732,M,1971,Staff,Pharmacy,Off-campus,2026-11-06,New,E11.9;I10
+JC-001145,M,1997,Student,Social Sciences,Hall A,2026-11-07,New,K29.7
+JC-008727,M,2000,Student,Agriculture,Hall C,2026-11-08,Follow-up,B54
+JC-000584,M,1996,Student,Arts,Off-campus,2026-11-09,Follow-up,B54
+JC-009869,Female,1991,Staff,Social Sciences,Staff Quarters,2026-11-10,New,N39.0
+JC-003807,Male,1999,Student,Arts,Hall J,2026-11-11,New,B54
+JC-004483,Female,2005,Student,Veterinary Medicine,Off-campus,2026-11-12,New,A01.0
+JC-010400,M,1971,Staff,Social Sciences,Staff Quarters,2026-11-13,New,I10
+JC-010298,Female,1964,Staff,Administration,Off-campus,2026-11-14,Follow-up,B54;A01.0
+JC-003899,M,2003,Student,Law,Hall B,2026-11-01,New,A09
+JC-003738,F,2002,Student,Basic Medical Sciences,Off-campus,2026-11-02,New,F41.9
+JC-001418,M,2000,Student,Social Sciences,Hall J,2025-02-17,New,K29.7
+JC-001418,M,2000,Student,Social Sciences,Hall J,2025-02-17,New,K29.7
+JC-001418,M,2000,Student,Social Sciences,Hall J,2025-02-17,New,K29.7
+,F,1997,Staff,Pharmacy,Off-campus,2024-03-19,New,B54
+JC-003641,M,2001,Student,Agriculture,Hall E,31/02/2026,New,K02.9
+JC-009583,F,1968,Staff,Social Sciences,Off-campus,2027-05-01,New,T14.9
+JC-009020,M,1984,Staff,Pharmacy,Staff Quarters,2024-11-23,New,ZZ9
+JC-002909,Female,2005,Visitor,Social Sciences,Hall J,2024-07-10,New,K29.7
+JC-007858,M,2003,Student,Economics and Management Sciences,Off-campus,03/11/2026,New,J06.9
+JC-002937,,1999,Student,Science,Hall E,2024-12-11,New,B54
+JC-005723,M,1890,Student,Pharmacy,Hall I,2025-10-16,New,T14.9

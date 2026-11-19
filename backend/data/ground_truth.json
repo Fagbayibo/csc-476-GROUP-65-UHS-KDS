@@ -1,0 +1,88 @@
+{
+  "note": "SYNTHETIC DATA \u2013 generated for testing; no real patients.",
+  "seed": 2026,
+  "period": [
+    "2022-01-01",
+    "2026-10-31"
+  ],
+  "clean_encounters": 149274,
+  "rows_written": 151510,
+  "patients": 11000,
+  "outbreaks": [
+    {
+      "id": "OB1",
+      "code": "H10.9",
+      "hall": null,
+      "start": "2023-10-16",
+      "weeks": 3,
+      "extra_per_week": 45,
+      "label": "Campus-wide conjunctivitis outbreak"
+    },
+    {
+      "id": "OB2",
+      "code": "J06.9",
+      "hall": null,
+      "start": "2024-01-15",
+      "weeks": 3,
+      "extra_per_week": 60,
+      "label": "Influenza-like respiratory outbreak"
+    },
+    {
+      "id": "OB3",
+      "code": "A09",
+      "hall": "Hall F",
+      "start": "2024-05-06",
+      "weeks": 2,
+      "extra_per_week": 28,
+      "label": "Gastroenteritis cluster in Hall F"
+    },
+    {
+      "id": "OB4",
+      "code": "A01.0",
+      "hall": "Hall D",
+      "start": "2025-03-10",
+      "weeks": 2,
+      "extra_per_week": 16,
+      "label": "Typhoid cluster in Hall D"
+    },
+    {
+      "id": "OB5",
+      "code": "A09",
+      "hall": "Hall B",
+      "start": "2025-09-15",
+      "weeks": 2,
+      "extra_per_week": 22,
+      "label": "Gastroenteritis cluster in Hall B"
+    },
+    {
+      "id": "OB6",
+      "code": "H10.9",
+      "hall": "Hall H",
+      "start": "2026-06-08",
+      "weeks": 2,
+      "extra_per_week": 14,
+      "label": "Conjunctivitis cluster in Hall H"
+    }
+  ],
+  "planted_patterns": [
+    "Malaria peaks in the rainy season (June\u2013September)",
+    "Upper respiratory infection, asthma and allergic rhinitis peak in the harmattan (December\u2013February)",
+    "About 25% of malaria diagnoses are accompanied by typhoid fever (\"typhomalaria\")",
+    "About 60% of diabetes visits also record hypertension",
+    "Hypertension and diabetes are concentrated among staff aged 40+ / 45+",
+    "Urinary tract infection is about 7 times more likely in females; dysmenorrhoea in female students only",
+    "Hall C (x1.9) and Hall G (x1.4) have higher malaria risk",
+    "Gastritis and anxiety rise in exam months (February, July)",
+    "Injuries are about 3 times more common in males"
+  ],
+  "academic_calendar": {
+    "exam_months": [
+      2,
+      7
+    ],
+    "break_months": [
+      8,
+      9
+    ]
+  }
+}

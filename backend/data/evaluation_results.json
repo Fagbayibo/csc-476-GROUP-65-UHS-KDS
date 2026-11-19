@@ -1,0 +1,983 @@
+{
+  "dataset": {
+    "diagnoses": 164290,
+    "encounters": 149163,
+    "patients": 11000,
+    "period": [
+      "2022-01-01",
+      "2026-10-31"
+    ]
+  },
+  "association_rules": {
+    "parameters": {
+      "min_support": 0.003,
+      "min_confidence": 0.2,
+      "min_lift": 1.3,
+      "max_len": 3
+    },
+    "transactions": 149163,
+    "frequent_itemsets": 1610,
+    "rules": 155,
+    "seconds": 1.84,
+    "planted": [
+      {
+        "pattern": "Diabetes visits also record hypertension",
+        "antecedent": [
+          "dx=Type 2 diabetes mellitus"
+        ],
+        "consequent": "Hypertension",
+        "support": 0.0136,
+        "confidence": 0.597,
+        "lift": 8.66,
+        "found_by_miner": true
+      },
+      {
+        "pattern": "Malaria diagnosed together with typhoid",
+        "antecedent": [
+          "dx=Malaria"
+        ],
+        "consequent": "Typhoid fever",
+        "support": 0.0769,
+        "confidence": 0.25,
+        "lift": 2.2,
+        "found_by_miner": true
+      },
+      {
+        "pattern": "Hypertension among staff aged 40\u201359",
+        "antecedent": [
+          "category=Staff",
+          "age=40\u201359"
+        ],
+        "consequent": "Hypertension",
+        "support": 0.0488,
+        "confidence": 0.404,
+        "lift": 5.86,
+        "found_by_miner": true
+      },
+      {
+        "pattern": "UTI more common in females",
+        "antecedent": [
+          "sex=F"
+        ],
+        "consequent": "Urinary tract infection",
+        "support": 0.0398,
+        "confidence": 0.08,
+        "lift": 1.74,
+        "found_by_miner": false
+      },
+      {
+        "pattern": "Dysmenorrhoea among female students",
+        "antecedent": [
+          "sex=F",
+          "category=Student"
+        ],
+        "consequent": "Dysmenorrhoea",
+        "support": 0.0322,
+        "confidence": 0.085,
+        "lift": 2.62,
+        "found_by_miner": false
+      },
+      {
+        "pattern": "Malaria in the rainy season",
+        "antecedent": [
+          "season=Rainy"
+        ],
+        "consequent": "Malaria",
+        "support": 0.2298,
+        "confidence": 0.38,
+        "lift": 1.24,
+        "found_by_miner": false
+      },
+      {
+        "pattern": "URTI in the harmattan",
+        "antecedent": [
+          "season=Harmattan"
+        ],
+        "consequent": "Upper respiratory tract infection",
+        "support": 0.0712,
+        "confidence": 0.294,
+        "lift": 1.62,
+        "found_by_miner": true
+      },
+      {
+        "pattern": "Higher malaria risk in Hall C",
+        "antecedent": [
+          "residence=Hall C"
+        ],
+        "consequent": "Malaria",
+        "support": 0.0281,
+        "confidence": 0.458,
+        "lift": 1.49,
+        "found_by_miner": true
+      },
+      {
+        "pattern": "Injuries more common in males",
+        "antecedent": [
+          "sex=M"
+        ],
+        "consequent": "Injury (unspecified)",
+        "support": 0.0277,
+        "confidence": 0.055,
+        "lift": 1.55,
+        "found_by_miner": false
+      }
+    ],
+    "top_rules": [
+      {
+        "antecedent": [
+          "age=60+",
+          "dx=Hypertension"
+        ],
+        "consequent": "Type 2 diabetes mellitus",
+        "support": 0.0039,
+        "confidence": 0.23,
+        "lift": 10.07,
+        "count": 586
+      },
+      {
+        "antecedent": [
+          "dx=Hypertension",
+          "residence=Staff Quarters"
+        ],
+        "consequent": "Type 2 diabetes mellitus",
+        "support": 0.0073,
+        "confidence": 0.209,
+        "lift": 9.14,
+        "count": 1089
+      },
+      {
+        "antecedent": [
+          "dx=Hypertension",
+          "season=Rainy"
+        ],
+        "consequent": "Type 2 diabetes mellitus",
+        "support": 0.0079,
+        "confidence": 0.204,
+        "lift": 8.93,
+        "count": 1179
+      },
+      {
+        "antecedent": [
+          "dx=Type 2 diabetes mellitus",
+          "season=Harmattan"
+        ],
+        "consequent": "Hypertension",
+        "support": 0.0033,
+        "confidence": 0.614,
+        "lift": 8.91,
+        "count": 492
+      },
+      {
+        "antecedent": [
+          "category=Staff",
+          "dx=Hypertension"
+        ],
+        "consequent": "Type 2 diabetes mellitus",
+        "support": 0.0134,
+        "confidence": 0.202,
+        "lift": 8.84,
+        "count": 2004
+      },
+      {
+        "antecedent": [
+          "dx=Type 2 diabetes mellitus",
+          "residence=Staff Quarters"
+        ],
+        "consequent": "Hypertension",
+        "support": 0.0073,
+        "confidence": 0.604,
+        "lift": 8.75,
+        "count": 1089
+      },
+      {
+        "antecedent": [
+          "dx=Type 2 diabetes mellitus",
+          "sex=M"
+        ],
+        "consequent": "Hypertension",
+        "support": 0.0078,
+        "confidence": 0.602,
+        "lift": 8.74,
+        "count": 1165
+      },
+      {
+        "antecedent": [
+          "age=60+",
+          "dx=Type 2 diabetes mellitus"
+        ],
+        "consequent": "Hypertension",
+        "support": 0.0039,
+        "confidence": 0.602,
+        "lift": 8.73,
+        "count": 586
+      },
+      {
+        "antecedent": [
+          "dx=Type 2 diabetes mellitus"
+        ],
+        "consequent": "Hypertension",
+        "support": 0.0136,
+        "confidence": 0.597,
+        "lift": 8.66,
+        "count": 2032
+      },
+      {
+        "antecedent": [
+          "category=Staff",
+          "dx=Type 2 diabetes mellitus"
+        ],
+        "consequent": "Hypertension",
+        "support": 0.0134,
+        "confidence": 0.597,
+        "lift": 8.66,
+        "count": 2004
+      },
+      {
+        "antecedent": [
+          "dx=Type 2 diabetes mellitus",
+          "season=Rainy"
+        ],
+        "consequent": "Hypertension",
+        "support": 0.0079,
+        "confidence": 0.595,
+        "lift": 8.62,
+        "count": 1179
+      },
+      {
+        "antecedent": [
+          "age=40\u201359",
+          "dx=Type 2 diabetes mellitus"
+        ],
+        "consequent": "Hypertension",
+        "support": 0.0094,
+        "confidence": 0.594,
+        "lift": 8.61,
+        "count": 1401
+      }
+    ]
+  },
+  "clustering": {
+    "k": 2,
+    "silhouette": 0.213,
+    "scores": [
+      {
+        "k": 2,
+        "silhouette": 0.213
+      },
+      {
+        "k": 3,
+        "silhouette": 0.165
+      },
+      {
+        "k": 4,
+        "silhouette": 0.111
+      },
+      {
+        "k": 5,
+        "silhouette": 0.101
+      },
+      {
+        "k": 6,
+        "silhouette": 0.084
+      }
+    ],
+    "clusters": [
+      {
+        "cluster": 0,
+        "size": 8,
+        "residences": [
+          "Hall A",
+          "Hall B",
+          "Hall D",
+          "Hall E",
+          "Hall F",
+          "Hall H",
+          "Hall I",
+          "Hall J"
+        ],
+        "distinctive": [
+          {
+            "ailment": "Conjunctivitis",
+            "rate": 5.62,
+            "ratio_to_average": 1.05
+          },
+          {
+            "ailment": "Allergic rhinitis",
+            "rate": 5.48,
+            "ratio_to_average": 1.02
+          },
+          {
+            "ailment": "Dysmenorrhoea",
+            "rate": 11.15,
+            "ratio_to_average": 1.02
+          }
+        ]
+      },
+      {
+        "cluster": 1,
+        "size": 2,
+        "residences": [
+          "Hall C",
+          "Hall G"
+        ],
+        "distinctive": [
+          {
+            "ailment": "Malaria",
+            "rate": 123.45,
+            "ratio_to_average": 1.44
+          },
+          {
+            "ailment": "Typhoid fever",
+            "rate": 40.26,
+            "ratio_to_average": 1.28
+          },
+          {
+            "ailment": "Hypertension",
+            "rate": 0.87,
+            "ratio_to_average": 1.11
+          }
+        ]
+      }
+    ],
+    "members": [
+      {
+        "residence": "Hall A",
+        "cluster": 0,
+        "x": -0.944,
+        "y": -2.204
+      },
+      {
+        "residence": "Hall B",
+        "cluster": 0,
+        "x": -2.391,
+        "y": 0.133
+      },
+      {
+        "residence": "Hall C",
+        "cluster": 1,
+        "x": 3.532,
+        "y": 2.984
+      },
+      {
+        "residence": "Hall D",
+        "cluster": 0,
+        "x": -0.089,
+        "y": -1.48
+      },
+      {
+        "residence": "Hall E",
+        "cluster": 0,
+        "x": -0.435,
+        "y": -2.087
+      },
+      {
+        "residence": "Hall F",
+        "cluster": 0,
+        "x": -2.382,
+        "y": 1.667
+      },
+      {
+        "residence": "Hall G",
+        "cluster": 1,
+        "x": 4.392,
+        "y": -1.402
+      },
+      {
+        "residence": "Hall H",
+        "cluster": 0,
+        "x": -1.705,
+        "y": 2.04
+      },
+      {
+        "residence": "Hall I",
+        "cluster": 0,
+        "x": -0.231,
+        "y": -0.365
+      },
+      {
+        "residence": "Hall J",
+        "cluster": 0,
+        "x": 0.252,
+        "y": 0.713
+      }
+    ],
+    "seconds": 0.11
+  },
+  "forecasting": {
+    "train": "2022-01 to 2024-12",
+    "test": "2025-01 to 2025-12",
+    "ailments": [
+      {
+        "code": "B54",
+        "ailment": "Malaria",
+        "mean_monthly_2025": 803.4,
+        "best_model": "Holt-Winters",
+        "Seasonal naive": {
+          "mae": 37.5,
+          "rmse": 46.66,
+          "mape": 5.2
+        },
+        "Seasonal mean": {
+          "mae": 46.86,
+          "rmse": 57.65,
+          "mape": 5.5
+        },
+        "Holt-Winters": {
+          "mae": 30.14,
+          "rmse": 33.9,
+          "mape": 4.1
+        },
+        "actual": [
+          463,
+          353,
+          572,
+          824,
+          1075,
+          1244,
+          1502,
+          669,
+          652,
+          1094,
+          686,
+          507
+        ],
+        "predicted_best": [
+          463.5,
+          391.5,
+          602.5,
+          806.2,
+          1046.2,
+          1221.5,
+          1450.8,
+          708.2,
+          616.8,
+          1040.5,
+          723.8,
+          513.2
+        ]
+      },
+      {
+        "code": "J06.9",
+        "ailment": "Upper respiratory tract infection",
+        "mean_monthly_2025": 474.1,
+        "best_model": "Seasonal mean",
+        "Seasonal naive": {
+          "mae": 28.83,
+          "rmse": 48.29,
+          "mape": 5.2
+        },
+        "Seasonal mean": {
+          "mae": 22.78,
+          "rmse": 26.48,
+          "mape": 5.1
+        },
+        "Holt-Winters": {
+          "mae": 46.58,
+          "rmse": 51.94,
+          "mape": 13.1
+        },
+        "actual": [
+          870,
+          761,
+          520,
+          371,
+          332,
+          339,
+          487,
+          263,
+          185,
+          391,
+          496,
+          674
+        ],
+        "predicted_best": [
+          856.7,
+          709.7,
+          505.7,
+          354.7,
+          345.0,
+          379.3,
+          460.7,
+          249.0,
+          189.3,
+          368.7,
+          455.7,
+          656.7
+        ]
+      },
+      {
+        "code": "A01.0",
+        "ailment": "Typhoid fever",
+        "mean_monthly_2025": 305.4,
+        "best_model": "Holt-Winters",
+        "Seasonal naive": {
+          "mae": 24.42,
+          "rmse": 26.58,
+          "mape": 8.7
+        },
+        "Seasonal mean": {
+          "mae": 28.33,
+          "rmse": 34.3,
+          "mape": 9.3
+        },
+        "Holt-Winters": {
+          "mae": 22.48,
+          "rmse": 27.26,
+          "mape": 7.2
+        },
+        "actual": [
+          201,
+          179,
+          271,
+          340,
+          356,
+          440,
+          536,
+          230,
+          243,
+          406,
+          258,
+          205
+        ],
+        "predicted_best": [
+          173.9,
+          179.2,
+          261.2,
+          308.9,
+          376.9,
+          428.9,
+          476.6,
+          239.6,
+          208.9,
+          371.6,
+          280.3,
+          195.3
+        ]
+      },
+      {
+        "code": "I10",
+        "ailment": "Hypertension",
+        "mean_monthly_2025": 177.7,
+        "best_model": "Seasonal mean",
+        "Seasonal naive": {
+          "mae": 16.08,
+          "rmse": 21.11,
+          "mape": 8.7
+        },
+        "Seasonal mean": {
+          "mae": 14.5,
+          "rmse": 17.22,
+          "mape": 7.9
+        },
+        "Holt-Winters": {
+          "mae": 17.22,
+          "rmse": 20.92,
+          "mape": 10.4
+        },
+        "actual": [
+          211,
+          192,
+          180,
+          162,
+          211,
+          173,
+          222,
+          101,
+          96,
+          199,
+          183,
+          202
+        ],
+        "predicted_best": [
+          208.3,
+          187.0,
+          194.7,
+          184.3,
+          199.0,
+          187.3,
+          192.3,
+          103.7,
+          90.7,
+          185.7,
+          206.0,
+          173.0
+        ]
+      },
+      {
+        "code": "A09",
+        "ailment": "Gastroenteritis",
+        "mean_monthly_2025": 176.5,
+        "best_model": "Seasonal mean",
+        "Seasonal naive": {
+          "mae": 24.83,
+          "rmse": 34.39,
+          "mape": 14.3
+        },
+        "Seasonal mean": {
+          "mae": 20.08,
+          "rmse": 26.38,
+          "mape": 11.4
+        },
+        "Holt-Winters": {
+          "mae": 21.75,
+          "rmse": 25.92,
+          "mape": 13.6
+        },
+        "actual": [
+          132,
+          116,
+          171,
+          211,
+          243,
+          247,
+          246,
+          104,
+          138,
+          184,
+          160,
+          166
+        ],
+        "predicted_best": [
+          137.3,
+          134.7,
+          164.0,
+          198.0,
+          283.0,
+          216.7,
+          221.0,
+          103.0,
+          85.3,
+          185.3,
+          164.0,
+          123.3
+        ]
+      },
+      {
+        "code": "K29.7",
+        "ailment": "Gastritis / peptic ulcer disease",
+        "mean_monthly_2025": 166.2,
+        "best_model": "Holt-Winters",
+        "Seasonal naive": {
+          "mae": 15.75,
+          "rmse": 17.9,
+          "mape": 10.4
+        },
+        "Seasonal mean": {
+          "mae": 14.86,
+          "rmse": 18.12,
+          "mape": 9.1
+        },
+        "Holt-Winters": {
+          "mae": 13.56,
+          "rmse": 16.56,
+          "mape": 10.3
+        },
+        "actual": [
+          138,
+          273,
+          162,
+          146,
+          174,
+          161,
+          294,
+          76,
+          75,
+          179,
+          151,
+          166
+        ],
+        "predicted_best": [
+          170.9,
+          275.2,
+          171.6,
+          168.6,
+          172.6,
+          164.3,
+          285.9,
+          84.3,
+          96.3,
+          166.9,
+          168.6,
+          142.6
+        ]
+      },
+      {
+        "code": "N39.0",
+        "ailment": "Urinary tract infection",
+        "mean_monthly_2025": 120.1,
+        "best_model": "Seasonal mean",
+        "Seasonal naive": {
+          "mae": 13.33,
+          "rmse": 17.31,
+          "mape": 11.6
+        },
+        "Seasonal mean": {
+          "mae": 12.94,
+          "rmse": 15.06,
+          "mape": 10.3
+        },
+        "Holt-Winters": {
+          "mae": 13.06,
+          "rmse": 15.35,
+          "mape": 12.3
+        },
+        "actual": [
+          130,
+          137,
+          135,
+          126,
+          136,
+          110,
+          155,
+          56,
+          58,
+          146,
+          126,
+          126
+        ],
+        "predicted_best": [
+          119.7,
+          119.7,
+          143.3,
+          146.3,
+          127.3,
+          116.7,
+          128.3,
+          63.0,
+          57.3,
+          129.3,
+          134.0,
+          101.3
+        ]
+      },
+      {
+        "code": "B36.9",
+        "ailment": "Superficial fungal skin infection",
+        "mean_monthly_2025": 109.7,
+        "best_model": "Holt-Winters",
+        "Seasonal naive": {
+          "mae": 11.42,
+          "rmse": 12.81,
+          "mape": 11.7
+        },
+        "Seasonal mean": {
+          "mae": 11.75,
+          "rmse": 14.59,
+          "mape": 11.3
+        },
+        "Holt-Winters": {
+          "mae": 9.03,
+          "rmse": 10.91,
+          "mape": 8.1
+        },
+        "actual": [
+          99,
+          157,
+          153,
+          163,
+          130,
+          97,
+          96,
+          49,
+          47,
+          125,
+          93,
+          107
+        ],
+        "predicted_best": [
+          112.7,
+          137.3,
+          165.0,
+          164.3,
+          134.7,
+          90.3,
+          85.0,
+          49.7,
+          50.0,
+          106.7,
+          105.3,
+          102.0
+        ]
+      }
+    ],
+    "best_counts": {
+      "Seasonal naive": 0,
+      "Seasonal mean": 4,
+      "Holt-Winters": 4
+    },
+    "mean_mape": {
+      "Seasonal naive": 9.5,
+      "Seasonal mean": 8.7,
+      "Holt-Winters": 9.9
+    }
+  },
+  "surveillance": {
+    "evaluation_window": [
+      "2024-01-01",
+      "2026-10-26"
+    ],
+    "methods": {
+      "ears_c2": {
+        "campus": {
+          "signals": 195,
+          "false_signals": 189,
+          "series": 16,
+          "weeks": 148,
+          "false_per_series_year": 4.165,
+          "specificity": 0.9202,
+          "outbreaks": [
+            {
+              "outbreak": "OB2",
+              "label": "Influenza-like respiratory outbreak",
+              "start": "2024-01-15",
+              "detected": true,
+              "delay_weeks": 0
+            }
+          ],
+          "detected": 1,
+          "of": 1,
+          "seconds": 0.12,
+          "false_by_ailment": {
+            "Malaria": 25,
+            "Gastritis / peptic ulcer disease": 24,
+            "Upper respiratory tract infection": 22,
+            "Typhoid fever": 19,
+            "Anxiety / stress-related disorder": 12
+          }
+        },
+        "residence": {
+          "signals": 596,
+          "false_signals": 588,
+          "series": 160,
+          "weeks": 148,
+          "false_per_series_year": 1.296,
+          "specificity": 0.9752,
+          "outbreaks": [
+            {
+              "outbreak": "OB3",
+              "label": "Gastroenteritis cluster in Hall F",
+              "start": "2024-05-06",
+              "detected": true,
+              "delay_weeks": 0
+            },
+            {
+              "outbreak": "OB4",
+              "label": "Typhoid cluster in Hall D",
+              "start": "2025-03-10",
+              "detected": true,
+              "delay_weeks": 0
+            },
+            {
+              "outbreak": "OB5",
+              "label": "Gastroenteritis cluster in Hall B",
+              "start": "2025-09-15",
+              "detected": true,
+              "delay_weeks": 0
+            },
+            {
+              "outbreak": "OB6",
+              "label": "Conjunctivitis cluster in Hall H",
+              "start": "2026-06-08",
+              "detected": true,
+              "delay_weeks": 0
+            }
+          ],
+          "detected": 4,
+          "of": 4,
+          "seconds": 1.03,
+          "false_by_ailment": {
+            "Malaria": 110,
+            "Upper respiratory tract infection": 94,
+            "Gastritis / peptic ulcer disease": 82,
+            "Typhoid fever": 66,
+            "Gastroenteritis": 52
+          }
+        }
+      },
+      "historical": {
+        "campus": {
+          "signals": 39,
+          "false_signals": 34,
+          "series": 16,
+          "weeks": 148,
+          "false_per_series_year": 0.749,
+          "specificity": 0.9856,
+          "outbreaks": [
+            {
+              "outbreak": "OB2",
+              "label": "Influenza-like respiratory outbreak",
+              "start": "2024-01-15",
+              "detected": true,
+              "delay_weeks": 1
+            }
+          ],
+          "detected": 1,
+          "of": 1,
+          "seconds": 0.11,
+          "false_by_ailment": {
+            "Anxiety / stress-related disorder": 5,
+            "Conjunctivitis": 4,
+            "Injury (unspecified)": 4,
+            "Type 2 diabetes mellitus": 3,
+            "Typhoid fever": 3
+          }
+        },
+        "residence": {
+          "signals": 406,
+          "false_signals": 398,
+          "series": 160,
+          "weeks": 148,
+          "false_per_series_year": 0.877,
+          "specificity": 0.9832,
+          "outbreaks": [
+            {
+              "outbreak": "OB3",
+              "label": "Gastroenteritis cluster in Hall F",
+              "start": "2024-05-06",
+              "detected": true,
+              "delay_weeks": 0
+            },
+            {
+              "outbreak": "OB4",
+              "label": "Typhoid cluster in Hall D",
+              "start": "2025-03-10",
+              "detected": true,
+              "delay_weeks": 0
+            },
+            {
+              "outbreak": "OB5",
+              "label": "Gastroenteritis cluster in Hall B",
+              "start": "2025-09-15",
+              "detected": true,
+              "delay_weeks": 0
+            },
+            {
+              "outbreak": "OB6",
+              "label": "Conjunctivitis cluster in Hall H",
+              "start": "2026-06-08",
+              "detected": true,
+              "delay_weeks": 0
+            }
+          ],
+          "detected": 4,
+          "of": 4,
+          "seconds": 1.18,
+          "false_by_ailment": {
+            "Upper respiratory tract infection": 46,
+            "Urinary tract infection": 35,
+            "Gastritis / peptic ulcer disease": 34,
+            "Dysmenorrhoea": 33,
+            "Asthma": 32
+          }
+        }
+      }
+    },
+    "outbreaks_in_window": [
+      "OB2",
+      "OB3",
+      "OB4",
+      "OB5",
+      "OB6"
+    ]
+  }
+}
