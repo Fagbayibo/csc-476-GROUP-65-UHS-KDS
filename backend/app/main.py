@@ -39,8 +39,8 @@ def create_app() -> FastAPI:
 
         @app.get('/{path:path}', include_in_schema=False)
         def spa(path: str):
-            f = dist / path
-            return FileResponse(f if path and f.is_file() else dist / 'index.html')
+            f = (dist / path).resolve()  # dist is already resolved; reject anything outside it
+            return FileResponse(f if path and f.is_file() and f.is_relative_to(dist) else dist / 'index.html')
     return app
 
 
