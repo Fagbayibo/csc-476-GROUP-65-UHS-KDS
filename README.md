@@ -114,10 +114,8 @@ docs/screenshots/  screenshots used in the report
 |---|---|---|
 | Oluwasegun Fagbayibo | E050109 | Team Leader |
 | John Ajose | E052225 | Member |
-| Kenneth Itua | E052760 | Member |
 | Olanrewaju Olaniyan | E053246 | Member |
 | Nicholas Mamman-Odey | E055714 | Member |
-| Adole Samuel | E055782 | Member |
 
 ## Licence
 
